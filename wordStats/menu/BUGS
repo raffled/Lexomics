@@ -1,0 +1,9 @@
+BUGS -- Anglo-Saxon Text Menu
+
+- No Unselect in Firefox (menubvmjs.js)
+	- UNRESOLVED as of 2010.06.29 
+	- Okay, it is not a problem with the code, per se,
+		but the setAttribute() function does not properly
+		and fully change the attribute in all places, ie
+		calling onclick() in the javascript will not use
+		the new onclick() value.
